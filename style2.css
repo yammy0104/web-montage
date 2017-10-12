@@ -1,0 +1,118 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+a {
+  background-color: #f9ae2c;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+}
+div {
+  margin-top: 100px;
+}
+
+.b1 {
+  color:#ef932f;
+  font-size: 40px;
+  margin-top:100px;
+  margin-right: 500px;
+  text-shadow: 0;
+  transition-duration: 0.5s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+.b2 {
+  color:#cc351a;
+  font-size: 60px;
+  transition-duration: 0.5s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+.b3 {
+  color:#e57d44;
+  font-size: 40px;
+  margin-left: 400px;
+  transition-duration: 0.5s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+.b4 {
+  color: #dd6337;
+  font-size: 40px;
+  transition-duration: 0.5s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+.b5 {
+  color:#cc351a;
+  font-size: 60px;
+  transition-duration: 0.5s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+
+.b6 {
+  color: #dd6337;
+  font-size: 40px;
+  transition-duration: 0.5s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+.b7 {
+  color:#d83f24;
+  font-size:60px;
+  font-weight: bold;
+  transition-duration: 0.5s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+.b1:hover {
+  transform: skewX(-20deg) translateX(20px);
+}
+.b2:hover {
+  transform: scale(3);
+}
+.b3:hover{
+    transform: skewX(20deg) translateX(-20px);
+}
+.b4:hover {
+  transform: scale(1.3);
+}
+.b5:hover {
+  -webkit-animation-name: buzz-out;
+  -webkit-animation-duration: 0.75s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count:infinite;
+}
+@keyframes buzz-out {
+  0% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+  }
+  10% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+  }
+  30% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+  }
+  50%{
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: scale(1.2);
+  }
+  70%{
+    -webkit-transform: translateX(2px) rotate(1deg);
+  }
+  85%{
+    -webkit-transform: translateX(-1px) rotate(-2deg);
+
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(2deg);
+    transform: scale(1.3);
+  }
+}
+.b6:hover {
+  transform: translateY(-20px);
+}
+.b7:hover {
+  transform: rotateX(360deg) scale(2);
+}
